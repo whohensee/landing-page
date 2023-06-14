@@ -52,6 +52,11 @@ body {
   align-items: center;
 }
 
+.footer-bar {
+  text-align: center;
+  padding: 10px 0;
+}
+
 /* ----- Background Colors ----- */
 
 .header-bar,
