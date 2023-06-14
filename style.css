@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-bar {
+  display: flex;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+}
