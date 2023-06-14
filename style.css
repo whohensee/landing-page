@@ -5,6 +5,14 @@ body {
 
 .header-bar {
   display: flex;
+  padding: 10px 100px;
+  gap: 16px;
+}
+
+.header-left {
+    margin-right: auto;
+    font-size: larger;
+    font-weight: 700;
 }
 
 .section {
