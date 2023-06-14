@@ -10,15 +10,25 @@ body {
 }
 
 .header-left {
-    margin-right: auto;
-    font-size: larger;
-    font-weight: 700;
+  margin-right: auto;
+  font-size: larger;
+  font-weight: 700;
 }
 
 .section {
   display: flex;
   justify-content: center;
-  padding: 0px 100px;
+  padding: 50px 100px;
+}
+
+.section.sec-info {
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec-info-cards {
+  display: flex;
+  justify-content: center;
 }
 
 /* ----- Background Colors ----- */
@@ -26,36 +36,30 @@ body {
 .header-bar,
 .footer-bar,
 .sec-awesome {
-    background-color: #1F2937;
-    color: white;
+  background-color: #1f2937;
+  color: white;
 }
 
 .sec-quote {
-    background-color: #E5E7EB;
+  background-color: #e5e7eb;
 }
 
 .sec-action,
 button {
-    background-color: #3882F6;
-    color: white;
+  background-color: #3882f6;
+  color: white;
 }
 
 button {
-    padding: 6px 18px;
-    border-radius: 4px;
+  padding: 6px 18px;
+  border-radius: 4px;
 }
 
 .sec-awesome button {
-    border: 0;
+  border: 0;
 }
 
 .sec-action button {
-    border: 1px solid;
-    border-color: white;
+  border: 1px solid;
+  border-color: white;
 }
-
-
-
-
-
-
