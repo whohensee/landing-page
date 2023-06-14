@@ -42,6 +42,16 @@ body {
   font-style: normal;
 }
 
+.action-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.section.sec-action {
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* ----- Background Colors ----- */
 
 .header-bar,
