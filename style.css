@@ -11,3 +11,13 @@ body {
   display: flex;
   justify-content: center;
 }
+
+/* ----- Background Colors ----- */
+
+.header-bar,
+.footer-bar {
+    background-color: #1F2937;
+    color: white;
+}
+
+
