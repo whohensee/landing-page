@@ -31,6 +31,17 @@ body {
   justify-content: center;
 }
 
+.section.sec-quote {
+  flex-direction: column;
+  font-style: italic;
+}
+
+.speaker {
+  align-self: flex-end;
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* ----- Background Colors ----- */
 
 .header-bar,
