@@ -15,9 +15,20 @@ body {
 /* ----- Background Colors ----- */
 
 .header-bar,
-.footer-bar {
+.footer-bar,
+.sec-awesome {
     background-color: #1F2937;
     color: white;
 }
+
+.sec-quote {
+    background-color: #E5E7EB;
+}
+
+.sec-action {
+    background-color: #3882F6;
+}
+
+
 
 
