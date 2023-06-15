@@ -3,7 +3,14 @@ body {
   flex-direction: column;
 }
 
-/* ----- header ----- */ 
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+/* ----- header ----- */
 
 .header-bar {
   display: flex;
@@ -24,14 +31,23 @@ body {
   gap: 50px;
 }
 
-/* ----- awesome section ----- */ 
+/* ----- awesome section ----- */
+
+.sec-awesome {
+  font-size: 18px;
+}
+
+h1 {
+  /* font-size: 48px; */
+  font-weight: 900;
+}
 
 .sec-awesome img {
   /* flex: 1; */
   height: 200px;
 }
 
-/* ----- info section ----- */ 
+/* ----- info section ----- */
 
 .section.sec-info {
   flex-direction: column;
@@ -41,13 +57,22 @@ body {
 .sec-info-cards {
   display: flex;
   justify-content: center;
+  gap: 50px;
+  text-align: center;
 }
 
 .sec-info-cards img {
   height: 100px;
+  flex: 0 0 auto;
 }
 
-/* ----- quote section ----- */ 
+.sec-info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ----- quote section ----- */
 
 .section.sec-quote {
   flex-direction: column;
@@ -60,7 +85,7 @@ body {
   font-style: normal;
 }
 
-/* ----- action section ----- */ 
+/* ----- action section ----- */
 
 .action-left {
   display: flex;
@@ -72,7 +97,7 @@ body {
   align-items: center;
 }
 
-/* ----- footer ----- */ 
+/* ----- footer ----- */
 
 .footer-bar {
   text-align: center;
