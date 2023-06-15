@@ -106,8 +106,18 @@ h1 {
 }
 
 .section.sec-action {
+  justify-content: center;
+  align-items: center;
+}
+
+.action-interior {
+  display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 32px;
+  padding: 40px;
+  flex: 1;
+  border-radius: 10px;
 }
 
 /* ----- footer ----- */
@@ -130,7 +140,7 @@ h1 {
   background-color: #e5e7eb;
 }
 
-.sec-action,
+.action-interior,
 button {
   background-color: #3882f6;
   color: white;
