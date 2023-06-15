@@ -3,6 +3,8 @@ body {
   flex-direction: column;
 }
 
+/* ----- header ----- */ 
+
 .header-bar {
   display: flex;
   padding: 10px 100px;
@@ -19,7 +21,17 @@ body {
   display: flex;
   justify-content: center;
   padding: 50px 100px;
+  gap: 50px;
 }
+
+/* ----- awesome section ----- */ 
+
+.sec-awesome img {
+  /* flex: 1; */
+  height: 200px;
+}
+
+/* ----- info section ----- */ 
 
 .section.sec-info {
   flex-direction: column;
@@ -30,6 +42,12 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.sec-info-cards img {
+  height: 100px;
+}
+
+/* ----- quote section ----- */ 
 
 .section.sec-quote {
   flex-direction: column;
@@ -42,6 +60,8 @@ body {
   font-style: normal;
 }
 
+/* ----- action section ----- */ 
+
 .action-left {
   display: flex;
   flex-direction: column;
@@ -51,6 +71,8 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+/* ----- footer ----- */ 
 
 .footer-bar {
   text-align: center;
